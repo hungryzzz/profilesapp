@@ -1,6 +1,5 @@
 import { type ClientSchema, a, defineData } from '@aws-amplify/backend';
 import { postConfirmation } from '../auth/post-confirmation/resource';
-import { post } from 'aws-amplify/api';
 
 /*== STEP 1 ===============================================================
 The section below creates a Todo database table with a "content" field. Try
